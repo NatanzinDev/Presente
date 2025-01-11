@@ -1,8 +1,11 @@
 body{
-    background-image: linear-gradient(to right, #EE82EE, #FF00FF);
+    background-image: linear-gradient(to right,magenta,pink);
     color: white;
+    
 }
-
+p{
+    font-size: 100px;
+}
 h1{
     display: flex;
     margin: auto;
@@ -10,4 +13,40 @@ h1{
     font-size: 40pt;
     justify-content: center;
     margin-top: 30px;
+}
+
+h2{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 30pt;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+div{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    margin-left: 800px;
+}
+
+.img4{
+    margin-right: 800px;
+}
+
+.img6{
+    margin-left: 800px;
 }
