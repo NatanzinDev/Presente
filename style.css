@@ -2,6 +2,7 @@ body{
     background-image: linear-gradient(to right,magenta,pink);
     color: white;
     width: 100%;
+    background-repeat: no-repeat;
     
 }
 p{
