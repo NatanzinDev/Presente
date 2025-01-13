@@ -31,22 +31,48 @@ img{
     margin: 20px;
 }
 
-div{
+.i{
    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .img2{
-    margin-left: 800px;
+
 }
 
 .img4{
-    margin-right: 800px;
+    
 }
 
 .img6{
-    margin-left: 800px;
+    
+}
+
+.i2{
+    flex-direction:row ;
+    margin-left: 50px;
+}
+
+.i3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 520px;
+}
+
+.e1{
+    margin-top: 100px;
+    margin-left: 250px;
+    float: left;
+}
+
+.e2{
+    margin-left: 1500px;
+    margin-bottom: 5000px;
+  
 }
