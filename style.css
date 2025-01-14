@@ -1,9 +1,97 @@
+
+@media screen and (max-width:768px){
+    body{
+        background-color: magenta;
+        color: white;
+        width: 100%;
+        background-repeat: no-repeat;
+       display: flex;
+       flex-direction: column;
+    }
+    p{
+        font-size: 100px;
+    }
+    h1{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-size: 40pt;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    h2{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-size: 30pt;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    
+    .i{
+       
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    .img2{
+    
+    }
+    
+    .img4{
+        
+    }
+    
+    .img6{
+        
+    }
+    
+    .i2{
+        flex-direction: row;
+        margin-left: 50px;
+        justify-content: center;
+    }
+    
+    .i3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 520px;
+    }
+    
+    .e1{
+        margin-top: 100px;
+        margin-left: 250px;
+        float: left;
+    }
+    
+    .e2{
+        margin-left: 1500px;
+        margin-bottom: 8000px;
+        position: relative;
+        bottom: 200px;
+    } 
+}
+
 body{
-    background-image: linear-gradient(to right,magenta,pink);
+    background-color: magenta;
     color: white;
     width: 100%;
     background-repeat: no-repeat;
-    
+   display: flex;
+   flex-direction: column;
 }
 p{
     font-size: 100px;
@@ -55,8 +143,10 @@ img{
 }
 
 .i2{
+    display: flex;
     flex-direction:row ;
-    margin-left: 50px;
+    
+    
 }
 
 .i3{
@@ -68,13 +158,13 @@ img{
 }
 
 .e1{
-    margin-top: 100px;
-    margin-left: 250px;
-    float: left;
+    position: relative;
+    right: 300px;
 }
 
 .e2{
-    margin-left: 1500px;
-    margin-bottom: 5000px;
-  
+   position: relative;
+   right: 700px;
+   bottom: 400px;
 }
+
